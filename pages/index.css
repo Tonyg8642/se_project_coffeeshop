@@ -1,20 +1,6 @@
-.page {
-  min-width: 1100px;
-  max-width: 1600px;
-  margin: 0 auto;
-  font-family: Inter, Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.header {
-  padding: 30px 80px 40px;
-  min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+@import url("../blocks/normalize.css");
+@import url("../blocks/page.css");
+@import url("../blocks/header.css");
 
 .nav__logo {
   position: relative;
@@ -42,63 +28,6 @@
   text-decoration: none;
 }
 
-.header__title {
-  max-width: 729px;
-  font-size: 60px;
-  line-height: 70px;
-  margin: 183px 0 0;
-  letter-spacing: -0.6px;
-  font-weight: 500;
-  z-index: 5;
-}
-
-.header__description {
-  max-width: 683px;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 20px 0 0;
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.header__image {
-  position: absolute;
-  top: 124px;
-  right: 5px;
-  width: 646px;
-  height: 568px;
-}
-
-.header__span-accent {
-  display: block;
-  font-family: "Noto Serif";
-  font-style: italic;
-  font-weight: normal;
-  font-size: 60px;
-  line-height: 72px;
-  color: #2f80ed;
-  text-decoration: none;
-}
-
-.header__footer {
-  display: flex;
-  justify-content: space-between;
-  margin-top: auto;
-}
-
-.header__paragraph {
-  margin: 0;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383;
-}
-
 .recipes__title {
   margin: 0 0 24px;
   font-family: "Inter";
@@ -116,8 +45,8 @@
 }
 
 .recipes__subtitle {
-    margin: 0 0 80px;
-    min-width: 438px;
+  margin: 0 0 80px;
+  min-width: 438px;
 }
 
 .recipes__videos {
@@ -135,7 +64,6 @@
   display: flex;
   margin-top: 24px;
   justify-content: space-between;
-
 }
 
 .recipes__iframe {
@@ -146,7 +74,7 @@
 
 .reservation {
   padding: 100px 0 120px;
-  background-color: #D9E7FF;
+  background-color: #d9e7ff;
   background-image: url(/images/background_reservation.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -175,7 +103,6 @@
   padding: 0;
   margin: 0;
   border: none;
-
 }
 
 .form__lable {
@@ -189,7 +116,6 @@
   height: 20px;
   width: 20px;
 }
- 
 
 .form__input {
   display: block;
@@ -205,7 +131,7 @@
   width: 100%;
   padding: 0;
   margin-bottom: 32px;
-  background: #2F80ED;
+  background: #2f80ed;
   border-radius: 4px;
   height: 60px;
   font-family: Inter;
@@ -223,4 +149,181 @@
 
 .form__button:hover {
   opacity: 0.7;
+}
+
+.menu {
+  background-color: white;
+  background-image: url(../images/background_menu.svg);
+  padding: 100px 0 100px;
+}
+
+.menu__title {
+  text-align: center;
+  margin: 0 0 24px;
+}
+
+.menu__subtitle {
+  text-align: center;
+  margin: 0 0 100px;
+}
+
+.menu__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.card {
+  width: 540px;
+}
+
+.card__title {
+  margin: 0 0 32px;
+}
+
+.card__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card__list-item {
+  display: flex;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid black;
+  flex-grow: 1;
+}
+
+.about {
+  background-color: #0a2856;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 100px 80px 173px;
+  .about__title {
+    font-size: 20px;
+    color: white;
+    max-width: 251px;
+    max-height: 80px;
+    margin-bottom: 20px;
+    z-index: 2;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+  }
+  .about__content {
+    color: white;
+    max-width: 560px;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .about__paragraph {
+    margin-bottom: 20px;
+    margin-top: 19px;
+  }
+  
+  
+}
+
+.about__circle {
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  width: 426px;
+  height: 426px;
+  background-color: #0066cc;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.about__circle_animation_blurred {
+  position: absolute;
+  top: -152px;
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  z-index: 1;
+  left:-100px;
+  animation: pulsate 1.3s ease-in-out infinite;
+  background-color: #0066cc;
+
+}
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  padding: 80px 60 80px;
+  
+}
+
+.footer__columns {
+  display: flex;
+}
+
+.footer__column_content_social {
+  margin-left: 80px;
+}
+
+.footer__logo {
+  width: 105px;
+  height: 39px;
+}
+
+.footer__social-heading {
+
+}
+
+.footer__list {
+
+}
+
+.footer__list-item {
+
+}
+
+.footer__column-heading {
+  margin: 0 0 20px;
+}
+
+.footer__social-icon {
+
+}
+
+.footer__social-link {
+
+}
+
+.footer__copyright {
+  margin: 108px 0 0;
 }
