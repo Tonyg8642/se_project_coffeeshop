@@ -294,7 +294,7 @@
 
 }
 
-footer__columns {
+.footer__columns {
   display: flex;
 }
 
@@ -341,7 +341,7 @@ footer__columns {
   color: #C1C1C1
 }
 
-.footer__column-link: {
+.footer__column-link {
   color: #2F80ED
 }
 
