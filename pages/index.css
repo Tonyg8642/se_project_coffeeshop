@@ -239,9 +239,6 @@
     margin-top: 19px;
   }
   
-  
-}
-
 .about__circle {
   position: absolute;
   top: -152px;
@@ -284,7 +281,7 @@
   box-sizing: border-box;
   background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
   color: white;
-  padding: 80px 60 80px;
+  padding: 80px 60px 80px;
   
 }
 
