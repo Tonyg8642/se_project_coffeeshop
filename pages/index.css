@@ -211,6 +211,7 @@
   justify-content: space-between;
   overflow: hidden;
   padding: 100px 80px 173px;
+}
   .about__title {
     font-size: 20px;
     color: white;
