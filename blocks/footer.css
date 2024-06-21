@@ -13,6 +13,7 @@
 
 .footer__columns {
   display: flex;
+  margin-left: auto;
 }
 
 .footer__logo {
@@ -20,7 +21,8 @@
   height: 39px;
 }
 
-.footer__social-heading {
+.footer__column.footer__column_content_social {
+  margin-left: auto;
 }
 
 .footer__list {
@@ -58,7 +60,8 @@
 }
 
 .footer__column-link {
-  color: #2f80ed;
+  color: white;
+  text-decoration: underline;
 }
 
 .footer__copyright {
