@@ -10,7 +10,7 @@
 .recipes {
   padding: 100px 80px 215px;
   background-color: #0a2750;
-  background-image: url(/images/background_recipes.svg);
+  background-image: url(../images/background_recipes.svg);
   color: white;
 }
 
@@ -33,6 +33,7 @@
 .recipes__videos-caption {
   display: flex;
   margin-top: 24px;
+  margin: 24px 0 0;
   justify-content: space-between;
 }
 

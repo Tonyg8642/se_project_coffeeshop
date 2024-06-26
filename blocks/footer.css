@@ -33,7 +33,7 @@
 
 .footer__list-item {
   margin: 0 0 16px;
-  font-family: "Inter";
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -54,13 +54,13 @@
   height: 16px;
 }
 
-.footer__social-link {
+.footer__social-link:hover {
   color: #c1c1c1;
 }
 
 .footer__column-link {
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .footer__copyright {
