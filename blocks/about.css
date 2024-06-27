@@ -1,6 +1,5 @@
 .about {
   background-color: #0a2856;
-  padding: 20px;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -11,8 +10,7 @@
   font-size: 20px;
   color: white;
   max-width: 251px;
-  max-height: 80px;
-  margin-bottom: 20px;
+  margin-bottom: 20px 0 0;
   z-index: 2;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -22,7 +20,7 @@
 }
 .about__content {
   color: white;
-  max-width: 560px;
+  max-width: 660px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;

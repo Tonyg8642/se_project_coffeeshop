@@ -17,12 +17,12 @@
 
 .recipes__subtitle {
   margin: 0 0 80px;
-  min-width: 438px;
+  max-width: 438px;
 }
 
 .recipes__videos {
   display: flex;
-  gap: 100px;
+  gap: 40px;
   justify-content: center;
   font-family: "Inter";
   font-style: normal;

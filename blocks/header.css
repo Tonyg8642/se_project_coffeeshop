@@ -9,6 +9,7 @@
   background-color: #ffffff;
   background-position: center;
   z-index: 1;
+  position: relative;
 }
 
 .header__title {
@@ -25,12 +26,10 @@
   max-width: 683px;
   font-size: 20px;
   line-height: 30px;
-  margin: 20px 0 0;
+  margin: 28px 0 0;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 30px;
 }
 
 .header__image {
