@@ -18,6 +18,11 @@
 .recipes__subtitle {
   margin: 0 0 80px;
   max-width: 438px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .recipes__videos {
