@@ -63,6 +63,7 @@
 .form__button {
   border-radius: 4px;
   transition: opacity 0.3s ease;
+  color: #fff;
 }
 
 .form__button:hover {
